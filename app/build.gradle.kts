@@ -37,10 +37,10 @@ android {
 }
 
 dependencies {
-    implementation ("androidx.media3:media3-exoplayer:1.0.1")
-    implementation ("androidx.media3:media3-exoplayer-dash:1.0.1")
-    implementation ("androidx.media3:media3-ui:1.0.1")
-    implementation ("androidx.media3:media3-exoplayer-rtsp:1.2.0")
+    implementation ("com.google.android.exoplayer:exoplayer-core:2.19.1")
+    implementation ("com.google.android.exoplayer:exoplayer-dash:2.19.1")
+    implementation ("com.google.android.exoplayer:exoplayer-ui:2.19.1")
+    implementation ("com.google.android.exoplayer:exoplayer-rtsp:2.19.1")
 
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
